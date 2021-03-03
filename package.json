@@ -1,0 +1,23 @@
+{
+  "name": "deploy-cli",
+  "version": "1.2.1",
+  "description": "前端自动化部署脚手架",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeLiJing/deploy-cli.git"
+  },
+  "keywords": [
+    "node",
+    "deploy",
+    "ssh"
+  ],
+  "author": "simon_lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LeeLiJing/deploy-cli/issues"
+  },
+  "homepage": "https://github.com/LeeLiJing/deploy-cli#readme",
+  "bin": {
+    "deploy-cli": "bin/deploy-cli.js"
+  }
+}
