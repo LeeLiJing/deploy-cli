@@ -19,5 +19,8 @@
   "homepage": "https://github.com/LeeLiJing/deploy-cli#readme",
   "bin": {
     "deploy-cli": "bin/deploy-cli.js"
+  },
+  "scripts": {
+    "link": "npm link"
   }
 }
