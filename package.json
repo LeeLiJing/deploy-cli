@@ -1,7 +1,13 @@
 {
   "name": "deploy-cli",
-  "version": "1.2.1",
-  "description": "前端自动化部署脚手架",
+  "version": "v1.2.2",
+  "description": "前端自动化部署项目脚手架",
+  "bin": {
+    "deploy-cli": "bin/deploy-cli.js"
+  },
+  "scripts": {
+    "link": "npm link"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LeeLiJing/deploy-cli.git"
@@ -17,12 +23,6 @@
     "url": "https://github.com/LeeLiJing/deploy-cli/issues"
   },
   "homepage": "https://github.com/LeeLiJing/deploy-cli#readme",
-  "bin": {
-    "deploy-cli": "bin/deploy-cli.js"
-  },
-  "scripts": {
-    "link": "npm link"
-  },
   "dependencies": {
     "archiver": "^5.2.0",
     "chalk": "^4.1.0",
